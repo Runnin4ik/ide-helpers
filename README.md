@@ -1,13 +1,8 @@
-# TrueAsync IDE Stubs
+# TrueAsync IDE helper
 
-Stubs for the [TrueAsync](https://github.com/true-async/php-async) PHP extension (PHP 8.6+).
+IDE help files for the [TrueAsync](https://github.com/true-async/php-async) extension (PHP 8.6+). Enables autocompletion, inline docs, and strict type analysis for PhpStorm, PHPStan, and Psalm.
 
-## PhpStorm
-
-**Settings → PHP → Include Path** → `+` → выбрать эту папку → OK.
-
-## Composer
-
+## Installation
 ```bash
-composer require --dev true-async/stubs
+composer require --dev true-async/ide-helper
 ```
