@@ -3,16 +3,5 @@
     "type": "library",
     "description": "IDE help files for the TrueAsync",
     "keywords": ["async", "coroutine", "true-async", "stubs", "ide-helper"],
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Async\\": "src/Async/"
-        },
-        "classmap": [
-            "src/Cancellation.php"
-        ],
-        "files": [
-            "src/Async/functions.php"
-        ]
-    }
+    "license": "MIT"
 }
